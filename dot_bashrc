@@ -125,7 +125,7 @@ alias win="cd /mnt/c/Users/adamh3"
 
 # tmux on startup
 if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
-	    tmux attach || tmux >/dev/null 2>&1
+	    tmux >/dev/null 2>&1
 fi
 
 PATH="$HOME/bin:$PATH"
