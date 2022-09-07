@@ -128,4 +128,7 @@ if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
 	    tmux >/dev/null 2>&1
 fi
 
+# Set vim as editor
+export EDITOR=/usr/bin/vim
+
 PATH="$HOME/bin:$PATH"
