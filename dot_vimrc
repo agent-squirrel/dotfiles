@@ -35,3 +35,4 @@ autocmd vimenter * ++nested colorscheme gruvbox
 set background=dark
 set mouse=
 set paste
+syntax on

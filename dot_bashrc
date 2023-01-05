@@ -124,9 +124,9 @@ alias jump="ssh adamh3@mgmt-adamh3.its.utas.edu.au"
 alias win="cd /mnt/c/Users/adamh3"
 
 # tmux on startup
-if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
-	    tmux >/dev/null 2>&1
-fi
+#if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
+#	    tmux >/dev/null 2>&1
+#fi
 
 # Set vim as editor
 export EDITOR=/usr/bin/vim
