@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Lighthouse
+alias lighthouse="ssh root@lighthouse.gnuplusadam.com"
 
 # Jump host
 alias jump="ssh adamh3@mgmt-adamh3.its.utas.edu.au"
