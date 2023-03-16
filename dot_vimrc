@@ -36,3 +36,4 @@ set background=dark
 set mouse=
 set paste
 syntax on
+set number
